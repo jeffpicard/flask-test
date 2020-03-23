@@ -1,0 +1,16 @@
+<h1>Word Sense Disambiguation</h1>
+
+<form method="post">
+    <label for="sentence">Sentence:</label>
+    <br>
+    <textarea name="sentence" id="sentence" placeholder="My favorite instrument is the bass guitar.">{{ request.form['sentence'] }}</textarea>
+    <br>
+    <label for="word">Word</label>
+    <br>
+    <textarea name="word" id="word" placeholder="bass">{{ request.form['word'] }}</textarea>
+    <br>
+    <input type="submit" value="Find definition">
+</form>
+
+<p>Definition of word in this sentence:<br> {{ definition }}</p>
+<a href=https://github.com/jeffpicard/word-sense-disambiguation style="font-size: 10px">code</a>

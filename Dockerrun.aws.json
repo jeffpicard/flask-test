@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "docker.io/jpicard/flasktest:1.0",
+    "Name": "docker.io/jpicard/word-sense-disambiguation:1.0",
     "Update": "true"
   },
   "Ports": [
